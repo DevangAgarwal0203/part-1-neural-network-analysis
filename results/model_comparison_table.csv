@@ -1,5 +1,5 @@
-Experiment,Accuracy
-Baseline Model,0.9825000166893005
-More Neurons,0.9825000166893005
-Tanh Activation,0.9825000166893005
-Larger Batch Size,0.9825000166893005
+Experiment,Neurons,Activation,Batch Size,Epochs,Test Accuracy,Test Loss
+Baseline Model,"16, 8",ReLU,32,20,0.9825,0.0696
+Exp 1: More Neurons,"32, 16",ReLU,32,15,0.9825,0.0717
+Exp 2: Tanh Activation,"16, 8",Tanh,32,15,0.9825,0.0794
+Exp 3: Larger Batch Size,"16, 8",ReLU,64,15,0.9825,0.0812
